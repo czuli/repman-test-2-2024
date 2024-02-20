@@ -1,0 +1,28 @@
+{
+    "name": "czuli/super-tools-test2",
+    "description": "Krótki opis Twojego projektu",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://czulhaim.repo.repman.io"}
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Lucas Czulak",
+            "email": "lucas.czulak@buddy.works"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Czuli\\SuperToolsTest2\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
